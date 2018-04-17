@@ -22,6 +22,6 @@
     localport: "{{ local_port }}"
     action: allow
     direction: in
-    protocal: "{{ protocal_name }}"
+    protocol: "{{ protocal_name }}"
     state: present
     enabled: yes
