@@ -1,3 +1,4 @@
+---
 package_name: openssh
 parameters: /SSHServerFeature
 service_name: SSHD
