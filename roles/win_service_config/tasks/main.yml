@@ -16,6 +16,7 @@
   when: ansible_distribution == "Microsoft Windows Server 2012 R2 Standard"
 
 # tasks file for roles/win_firewall
+
 - name: add win_firewall_rule
   win_firewall_rule:
     name: "{{ service_name }}"
@@ -25,3 +26,4 @@
     protocol: "{{ protocol_name }}"
     state: present
     enabled: yes
+
